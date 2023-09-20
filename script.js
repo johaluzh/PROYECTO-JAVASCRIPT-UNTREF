@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(datosProductos);
   if (datosProductos) {
     datosProductos.productos.forEach((productos) => {
-      //   1.- Creamos un elemento <div> para cada provincia
+     
       const divItem = document.createElement("div");
-      //   2.- Agregamos la clase "grid-item" al div que contiene el nombre de la provincia y su imagen
+      
       divItem.classList.add("div-item");
-      //    3.- Agregamos una etiqueta h4 con el texto del título a nuestro nuevo elemento <div>.
+      
       divItem.innerHTML =  `
       <img src="${productos.imagen}" alt="${productos.nombre}">
       <h3>${productos.nombre}</h3>
