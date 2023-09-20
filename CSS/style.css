@@ -112,11 +112,30 @@ i > img{
 main{
     width: 100%;
     
-    padding: 10rem ;
+    padding: 0rem 10rem 10rem ;
     background-color: #d7c5f7;
     margin: 0;
     display: flex;
     justify-content: center;
+    
+}
+
+
+body > h1{
+    margin-bottom: 0%;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    padding: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    
+    
+    position: relative;
+    top: 0rem;
+    margin-bottom:  0px;
+    background-color:#d7c5f7;
+    
+   
     
 }
 
@@ -138,15 +157,18 @@ main{
 
 .div-item{
     
-    padding: 5rem;
+    padding: 5rem, 0rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 350px;
-    height: 450px;
+    width: 250px;
+    height: 480px;
+    
+   
     background-color: #c3b4ec;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+    
+   
     &:hover{
         background-color: #917FB3;
     }
@@ -160,6 +182,10 @@ main{
 .div-item > img {
     width: 200px;
     height: 200px;
+    position: relative;
+    right: -24px;
+    top: -20px;
+    
     
 }
 
@@ -167,23 +193,52 @@ main{
 
 
 
+  
 
-h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2.5rem;
-    font-style: italic;
     
-    text-align: center;
+      
+      
+    
+.div-item > h3{
+    font-size: 20px;
+    
+
+
+}
+
+.div-item > h6{
+
+}
+
+.div-item > h5{
+
+}
+
+.div-item > .ver-mas{
+    color: black;
+    background-color: #a492c4;
     position: relative;
     top: 2rem;
-    background-color:#d7c5f7;
-    margin: 0%;
+    margin-bottom: 0.5rem;
+   
+    &:hover{
+        background-color: #c1ace7;
+    }
+   
     
 }
 
-
-
-
+.div-item >.agregar-carrito{
+    color: black;
+    background-color: #a492c4;
+    position: relative;
+    top: 2rem;
+   
+    &:hover{
+        background-color: #c1ace7;
+    }
+    
+}
 
     
     

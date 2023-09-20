@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const datosProductos = JSON.parse(localStorage.getItem("productos"));
 
-  if (datosProductos && datosProductos.productos) { // Cambié "producto" a "productos"
-    const productoSeleccionado = datosProductos.productos.find(producto => producto.id === parseInt(idProducto)); // Convertí idProducto a entero
+  if (datosProductos && datosProductos.productos) { 
+    const productoSeleccionado = datosProductos.productos.find(producto => producto.id === parseInt(idProducto));
 
     if (productoSeleccionado) {
       const contenedorDetallesProducto = document.createElement("div");
@@ -17,12 +17,20 @@ document.addEventListener("DOMContentLoaded", () => {
         <h2>${productoSeleccionado.nombre}</h2>
         <h6>Marca: ${productoSeleccionado.marca}</h6>
         <h5>Precio: ${productoSeleccionado.precio}</h5>
-        <p>Descripcion: ${productoSeleccionado.descripcion}</p>
-        <p>ID: ${productoSeleccionado.id}</p>
-        
-      `;
+        <div class="descripcion">
+          <p>${productoSeleccionado.descripcion}</p>
+        </div>
+        <div class="notas">
+          <dt>Notas de salida:</dt>
+          <dd>${productoSeleccionado.salida}</dd>
+          <dt>Notas de Corazón:</dt>
+          <dd>${productoSeleccionado.corazon}</dd>
+          <dt>Notas de Fondo:</dt>
+          <dd>${productoSeleccionado.fondo}</dd>
+        </div>`;
 
       detalleProducto.appendChild(contenedorDetallesProducto);
     }
   }
 });
+
