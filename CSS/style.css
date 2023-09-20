@@ -11,11 +11,12 @@ body{
     
     width: 100%;
     height: 100%;
-    background-color: #917FB3;
+    background-color: #d7c5f7;
 }
 
 header{
     background-color: #917FB3;
+    margin: 0%;
    
 }
 
@@ -33,7 +34,7 @@ header{
     font-size: small;
 }
 
-body > header > nav{
+header > nav{
     color: #917FB3 ;
     padding: 0%;
     margin: 0%;
@@ -110,11 +111,59 @@ i > img{
 
 main{
     width: 100%;
-    height: 85rem;
-    padding: 0rem 5rem;
+    
+    padding: 10rem ;
     background-color: #d7c5f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
     
 }
+
+#productos-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+   
+
+    
+    
+    
+ 
+}
+
+
+
+.div-item{
+    
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    background-color: #c3b4ec;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    &:hover{
+        background-color: #917FB3;
+    }
+    
+    
+    
+  
+    
+}
+
+.div-item > img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+
 
 
 
@@ -127,36 +176,26 @@ h1{
     text-align: center;
     position: relative;
     top: 2rem;
+    background-color:#d7c5f7;
+    margin: 0%;
     
 }
 
 
-section{
-    width: 100%;
-    height: 60rem;
-    padding: 5rem;
+
+
+
     
     
     
-}
-#card-producto{
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border: 0;
+
+
    
    
-}
 
-.card-body , .card-title, .card-text , .card-product{
-    background-color: #BEADFA;
-    
-}
 
-.row1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4rem;
-}
+
+
 
 .decoration {
     width: 100%;
@@ -164,18 +203,9 @@ section{
     
 }
 
-.row2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4rem;
-}
 
-.ver-añadir{
-    background-color: #917FB3;
-    display: flex;
-    justify-content: space-around;
-}
+
+
 
 .cart-small{
     width: 1.2rem;
@@ -186,15 +216,7 @@ section{
     
 }
 
-button{
-    background-color: #917FB3;
-    padding-left: 2rem;
-}
 
-.miBoton{
-    background-color: #917FB3;
-    padding-left: 2rem;
-}
 
 footer{
    width: 100%;
@@ -265,13 +287,3 @@ li{
 }
 
 
-@media  (max-width: 460px) /*celular*/ {
-    .mini-nav{
-        background-color: black;
-        width: 100%;
-        height: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
