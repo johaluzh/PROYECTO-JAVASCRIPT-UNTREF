@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       divItem.innerHTML =  `
       <img src="${productos.imagen}" alt="${productos.nombre}">
       <h3>${productos.nombre}</h3>
-      <h5>Precio: ${productos.precio}</h5>
-      <p>Descripcion: ${productos.descripcion}</p>`;
+      <h5>Precio: ${productos.precio}</h5>`
 
       divItem.addEventListener("click", () => {
         mostrarDetallesProducto(productos);
