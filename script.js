@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function mostrarDetallesProducto(producto) {
-  //Redireccionar a otra página para mostrar los detalles
+  
   location.href = `index2.html?id=${producto.id}`;
 }
 
