@@ -128,7 +128,8 @@ main{
     color: black;
     background-color: #a492c4;
     position: relative;
-    top: 2rem;
+    
+    margin-top: 1rem;
     
    
     &:hover{
