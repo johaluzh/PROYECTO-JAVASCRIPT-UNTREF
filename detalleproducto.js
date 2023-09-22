@@ -27,10 +27,22 @@ document.addEventListener("DOMContentLoaded", () => {
           <dd>${productoSeleccionado.corazon}</dd>
           <dt>Notas de Fondo:</dt>
           <dd>${productoSeleccionado.fondo}</dd>
-        </div>`;
+        </div>
+        <button class="atras">Volver atrás</button>
+        <button class="comprar">Comprar</button>
+        <button class="ver-mas">Agregar al carrito</button>
+      `;
 
       detalleProducto.appendChild(contenedorDetallesProducto);
+
+      
+      const botonAtras = contenedorDetallesProducto.querySelector(".atras");
+      botonAtras.addEventListener("click", () => {
+       
+        window.location.href = './index.html';
+      });
     }
   }
 });
+
 
