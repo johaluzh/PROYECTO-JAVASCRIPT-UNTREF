@@ -100,13 +100,14 @@ main{
 #detalles-de-producto{
     display: flex;
     justify-content: center;
+    background-color: brown;
 }
 
 #detalle-producto > div{
     display: flex;
     flex-direction: column;
-    background-color: #c3b4ec;
-    height: 1000px;
+    
+    height: 70rem;
     
 }
 
@@ -196,124 +197,12 @@ body > footer > ul.ubicacion > li:nth-child(1){
     font-size: 1rem;
 }
 
-@media screen and (max-width: 768px){
-    body{
-        width: 100%;
-    }
-    
-    nav{
-        width: 100%;
-    }
-
-    body > h1{
-        padding: 2rem;
-    }
-
-    main{
-        width: 100%;
-        height: 80rem;
-        padding: 0rem 4rem;
-        
-    }
-
-    #detalle-producto{
-        padding: 0rem 5rem;
-        height: 83rem;
-    }
-
-    #detalle-producto > div{
-        height: 78rem;
-    }
-
-    #detalle-producto > div > button{
-        width: 100%;
-        margin-top: 1rem;
-    }
-   
-    
-
-    footer{
-        width: 100%;
-        padding: 2rem 1rem;
-    }
-
-    
-}
 
 
 
 
 
-@media screen and (max-width: 480px){
-  
-
-    *{
-    box-sizing: border-box;
-    margin: 0%;
-    border: 0;
-    }
-    body{
-        width: 100%;
-    }
-    
-    nav{
-        width: 100%;
-    }
-    main{
-        width: 100%;
-        padding: 0rem 5rem;
-        height: 90rem;
-    }
-    #detalle-producto{
-        padding: 0rem 10rem;
-        height: 83rem;
-    }
-    #detalle-producto{
-        height: 90rem;
-    }
-    #detalle-producto > div > button{
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    #detalle-producto > div > div.descripcion{
-        padding: 0rem 10rem;
-    }
-
-    #detalle-producto > div > div.notas{
-        padding: 0rem 10rem;
-    }
-
-    #detalle-producto > div > h5 {
-        padding: 0rem 6.5rem;
-    }
-    #detalle-producto > div > h6{
-        padding: 0rem 6.5rem;
-
-    }
-   
-    #detalle-producto > div > h2{
-        padding: 2rem 6.5rem 0rem;
-    }
-
-    #detalle-producto > div > img{
-        position: relative;
-        left: -9rem;
-    }
 
 
 
-    footer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        column-gap: 4rem;
-        align-items: center;
-    }
-
-    body > footer > ul.ubicacion > li:nth-child(1){
-        text-align: center;
-    }
-
-}
 
