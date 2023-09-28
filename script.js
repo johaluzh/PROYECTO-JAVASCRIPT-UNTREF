@@ -1,8 +1,9 @@
 fetch ("./productos.json")
 .then((respuesta) => respuesta.json())
-.then((datos) => localStorage.setItem("productos", JSON.stringify(datos)));
+.then((datos) => {
+  localStorage.setItem("productos", JSON.stringify(datos));
 
-document.addEventListener("DOMContentLoaded", () => {
+
   const divProductos = document.getElementById("productos-container");
   const datosProductos = JSON.parse(localStorage.getItem("productos"));
   console.log(datosProductos);
@@ -30,6 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+
+
 
 function mostrarDetallesProducto(producto) {
   
