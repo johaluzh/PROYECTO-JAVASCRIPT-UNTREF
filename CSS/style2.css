@@ -217,11 +217,11 @@ body > footer > ul.ubicacion > li:nth-child(1){
 
     #detalle-producto{
         width: 31.25rem;
-        height: 90rem;
+        height: 100rem;
     }
 
     #detalle-producto > div{
-        height: 90rem;
+        height: 100rem;
     }
 
     #detalle-producto > div > img{
