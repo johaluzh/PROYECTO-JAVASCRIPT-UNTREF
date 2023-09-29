@@ -208,21 +208,24 @@ body > footer > ul.ubicacion > li:nth-child(1){
     body{
         width: 31.25rem;
         height: 100rem;
-    }
+           
+     }
 
     body > main{
         width: 31.25rem;
         height: 110rem;
-        margin: 10px;
+      
     }
 
     #detalle-producto{
         width: 31.25rem;
         height: 100rem;
+        
     }
 
     #detalle-producto > div{
         height: 100rem;
+        
     }
 
     #detalle-producto > div > img{
@@ -230,11 +233,14 @@ body > footer > ul.ubicacion > li:nth-child(1){
         left: -290px;
         width: 20rem;
         height: 20rem;
+        
+       
     }
 
     #detalle-producto > div > h2{
         margin-top: 4rem;
         margin-bottom: 1.5rem;
+        
     }
 
     #detalle-producto > div > h6{
@@ -255,6 +261,7 @@ body > footer > ul.ubicacion > li:nth-child(1){
         column-gap: 6rem;
         align-items: center;
         padding: 0;
+        
     }
 
     body > footer > ul.ubicacion > li:nth-child(1){
