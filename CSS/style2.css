@@ -212,7 +212,8 @@ body > footer > ul.ubicacion > li:nth-child(1){
 
     body > main{
         width: 31.25rem;
-        height: 95rem;
+        height: 110rem;
+        margin: 10px;
     }
 
     #detalle-producto{
