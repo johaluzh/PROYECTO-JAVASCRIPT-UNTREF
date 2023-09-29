@@ -204,7 +204,7 @@ body > footer > ul.ubicacion > li:nth-child(1){
 
 
 
-@media screen and (min-width:320px) and (max-width: 780px){
+@media screen and (min-width:320px){
     body{
         width: 31.25rem;
         height: 100rem;
@@ -261,6 +261,7 @@ body > footer > ul.ubicacion > li:nth-child(1){
         column-gap: 6rem;
         align-items: center;
         padding: 0;
+        color: aqua;
         
     }
 
